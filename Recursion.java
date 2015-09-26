@@ -5,9 +5,9 @@ package Lesson3_19_09_2015;
  */
 public class Recursion {
 
-    public static void hanoy(int n, char a, char b, char c){
-        if (n > 0){
-            hanoy(n-1, a, c, b);
+    public static void hanoy(int n, char a, char b, char c) {
+        if (n > 0) {
+            hanoy(n - 1, a, c, b);
             System.out.println("Put " + n + " from " + a + " to " + c);
             hanoy(n - 1, b, a, c);
         }
